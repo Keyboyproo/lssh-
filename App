@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + proxy
@@ -11,7 +11,7 @@
 A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE EM ALGUNS DDDS!!
 
 ⚙️ CONFIGURAÇÃO 1.0.5
-🗓️ DATA: 30/03/2022
+🗓️ DATA: 30/03/2022,
 
 
 🚨REINICIE O APP APÓS ATUALIZAR! 🚨",
