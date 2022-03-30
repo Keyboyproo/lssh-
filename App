@@ -1,20 +1,6 @@
 {
-  "Version": "1.0.5",
-  "ReleaseNotes": "🔰 ESTABILIZAÇÃO
-🔰 VIVO / OI / TIM / CLARO/OI
-🔰 CONFIG SSL + proxy
-
-🇧🇷 ATUALIZAÇÃO DE SERVIDOR BRASILEIRO E CERTIFICADOS🇧🇷
-
-🔰ALGUMAS CORREÇÕES 🔰
-
-A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE EM ALGUNS DDDS!!
-
-⚙️ CONFIGURAÇÃO 1.0.5
-🗓️ DATA: 30/03/2022,
-
-
-🚨REINICIE O APP APÓS ATUALIZAR! 🚨",
+  "Version": "1.0.6",
+  "ReleaseNotes": "ATUALIZAÇÂO DAS CONEXÕES...",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lssh-/main/App",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6849",
   "EmailFeedback": "",
