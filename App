@@ -1,6 +1,20 @@
 {
   "Version": "1.0.4",
-  "ReleaseNotes": "lucad adm claro",
+  "ReleaseNotes": "🔰 ESTABILIZAÇÃO
+🔰 VIVO / OI / TIM / CLARO/OI
+🔰 CONFIG SSL + proxy
+
+🇧🇷 ATUALIZAÇÃO DE SERVIDOR BRASILEIRO E CERTIFICADOS🇧🇷
+
+🔰ALGUMAS CORREÇÕES 🔰
+
+A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE EM ALGUNS DDDS!!
+
+⚙️ CONFIGURAÇÃO 1.0.5
+🗓️ DATA: 30/03/2022
+
+
+🚨REINICIE O APP APÓS ATUALIZAR! 🚨",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lssh-/main/App",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6849",
   "EmailFeedback": "",
@@ -25,7 +39,7 @@
   ],
   "Servers": [
     {
-      "Name": "lssh BR3 | PLUS",
+      "Name": "FOX BR03 | VIP",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br3.myconnectway.xyz",
@@ -35,21 +49,41 @@
       "PASS": ""
     },
     {
-      "Name": "PREMIUM br4| PLUS",
-      "TYPE": "free",
+      "Name": "FOX BR04| VIP",
+      "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "exemplo02.dominio.xyz",
+      "ServerIP": "br4.myconnectway.xyz",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "teste006",
-      "PASS": "1234"
+      "USER": "",
+      "PASS": ""
     }
   ],
   "Networks": [
     {
-      "Name": "VIVO PROXY 01",
+      "Name": "VIVO PROXY 01 BR-03",
       "FLAG": "vivo",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
+      "Name": "VIVO - CLARO - TIM - OI",
+      "FLAG": "vivo",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+{
+      "Name": "VIVO PROXY 01 BR-04",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
