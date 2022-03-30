@@ -1,6 +1,6 @@
 {
   "Version": "1.0.2",
-  "ReleaseNotes": "",
+  "ReleaseNotes": "lucad adm",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lssh-/main/App",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6849",
   "EmailFeedback": "",
