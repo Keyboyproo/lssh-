@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.3",
-  "ReleaseNotes": "lucad adm online",
+  "Version": "1.0.4",
+  "ReleaseNotes": "lucad adm claro",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lssh-/main/App",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6849",
   "EmailFeedback": "",
@@ -25,7 +25,7 @@
   ],
   "Servers": [
     {
-      "Name": "lssh plus | PLUS",
+      "Name": "lssh BR3 | PLUS",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br3.myconnectway.xyz",
@@ -35,7 +35,7 @@
       "PASS": ""
     },
     {
-      "Name": "PREMIUM 02 | PLUS",
+      "Name": "PREMIUM br4| PLUS",
       "TYPE": "free",
       "FLAG": "br.png",
       "ServerIP": "exemplo02.dominio.xyz",
@@ -55,6 +55,16 @@
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
       "Info": "Proxy"
+    },
+{
+      "Name": "VIVO - CLARO - TIM - OI",
+      "FLAG": "vivo",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
   ]
 }
