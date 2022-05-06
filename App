@@ -1,11 +1,19 @@
 {
-  "Version": "1.0.6",
-  "ReleaseNotes": "ATUALIZAÇÂO DAS CONEXÕES...",
+  "Version": "1.0.7",
+  "ReleaseNotes": "🔰 ESTABILIZAÇÃO
+🔰 VIVO / OI / TIM / CLARO/OI
+🔰 CONFIG SSL + PROXY
+
+🇧🇷 ATUALIZAÇÃO DE SERVIDOR BRASILEIRO E CERTIFICADOS🇧🇷
+
+🔰ALGUMAS CORREÇÕES 🔰
+
+A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lssh-/main/App",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6849",
   "EmailFeedback": "",
   "UrlContato": "https://t.me/l2350",
-  "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
+  "UrlTermos": "https://paste.anasor.com/paste.php?raw&id=6875",
   "Udp": [
     {
       "Porta": "7300"
@@ -24,17 +32,7 @@
     }
   ],
   "Servers": [
-    {
-      "Name": "FOX BR03 | VIP",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "br3.myconnectway.xyz",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
+   {
       "Name": "FOX BR04| VIP",
       "TYPE": "premium",
       "FLAG": "br.png",
@@ -46,42 +44,52 @@
     }
   ],
   "Networks": [
-    {
-      "Name": "VIVO PROXY 01 BR-03",
+{
+      "Name": "VIVO BR-04",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "cdnjs.cloudflare.com",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "ssl"
+    },
+    {
+      "Name": "VIVO PROXY BR-04",
+      "FLAG": "vivo",
+      "Payload": "GET ws://br4.myconnectway.xyz HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "br3.myconnectway.xyz",
+      "TlsIP": "br3.myconnectway.xyz",
+      "ProxyIP": "104.16.19.94",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "proxy"
     },
 {
-      "Name": "VIVO - CLARO - TIM - OI",
-      "FLAG": "vivo",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Name": "CLARO BR4",
+      "FLAG": "claro",
+      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-{
-      "Name": "VIVO PROXY 01 BR-04",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+        {
+      "Name": "TIM BR-04",
+      "FLAG": "tim",
+      "Payload": "GET wsni://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "cdnjs.cloudflare.com",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
-{
-      "Name": "VIVO - CLARO - TIM - OI",
-      "FLAG": "vivo",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+        {
+      "Name": "OI BR-04",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
