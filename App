@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.8",
+  "Version": "1.0.9",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -58,8 +58,8 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!",
       "Name": "VIVO PROXY BR",
       "FLAG": "vivo",
       "Payload": "GET ws://br4.myconnectway.xyz HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "br3.myconnectway.xyz",
-      "TlsIP": "br3.myconnectway.xyz",
+      "SNI": "br4.myconnectway.xyz",
+      "TlsIP": "br4.myconnectway.xyz",
       "ProxyIP": "104.16.19.94",
       "ProxyPort": "80",
       "Info": "proxy"
