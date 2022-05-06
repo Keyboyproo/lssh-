@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.11",
+  "Version": "1.0.12",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -9,7 +9,7 @@
 🔰ALGUMAS CORREÇÕES 🔰
 
 A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
-⚙️ CONFIGURAÇÃO NOVA!
+⚙️ CONFIGURAÇÃO NOVA !
 🗓️ DATA: 2022",",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lssh-/main/App",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6849",
