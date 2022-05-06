@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -33,7 +33,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!",
   ],
   "Servers": [
    {
-      "Name": "FOX BR04| VIP",
+      "Name": "FOX | VIP",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br4.myconnectway.xyz",
@@ -45,7 +45,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!",
   ],
   "Networks": [
 {
-      "Name": "VIVO BR-04",
+      "Name": "VIVO BR",
       "FLAG": "vivo",
       "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
@@ -55,7 +55,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!",
       "Info": "ssl"
     },
     {
-      "Name": "VIVO PROXY BR-04",
+      "Name": "VIVO PROXY BR",
       "FLAG": "vivo",
       "Payload": "GET ws://br4.myconnectway.xyz HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "br3.myconnectway.xyz",
@@ -65,7 +65,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!",
       "Info": "proxy"
     },
 {
-      "Name": "CLARO BR4",
+      "Name": "CLARO BR",
       "FLAG": "claro",
       "Payload": "GET ws://no.descomplica.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "no.descomplica.com.br",
@@ -75,7 +75,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!",
       "Info": "Tlsws"
     },
         {
-      "Name": "TIM BR-04",
+      "Name": "TIM BR",
       "FLAG": "tim",
       "Payload": "GET wsni://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
@@ -85,7 +85,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!",
       "Info": "Tlsws"
     },
         {
-      "Name": "OI BR-04",
+      "Name": "OI BR",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.hbogo.com.br",
