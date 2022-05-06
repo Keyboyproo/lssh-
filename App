@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.9",
+  "Version": "1.0.10",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -77,7 +77,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!",
         {
       "Name": "TIM BR",
       "FLAG": "tim",
-      "Payload": "GET wsni://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET sni://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "cdnjs.cloudflare.com",
       "ProxyIP": "104.16.18.94",
