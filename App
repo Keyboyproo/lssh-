@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.17",
+  "Version": "1.0.18",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -69,11 +69,31 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
  {
     "Name": "VIVO 3 BR",
       "FLAG": "vivo",
-      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "vigia.vivo.com.br",
+      "TlsIP": "vigia.vivo.com.br",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "443",
+     "Info": "Tlsws"
+  },
+   {
+    "Name": "VIVO 4 BR",
+      "FLAG": "vivo",
+      "Payload": "GET wss://cname.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cname.vivo.com.br",
+      "TlsIP": "cname.vivo.com.br",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "443",
+     "Info": "Tlsws"
+  },
+     {
+    "Name": "VIVO 5 BR",
+      "FLAG": "vivo",
+      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "162.159.135.63",
+      "ProxyPort": "443",
      "Info": "Tlsws"
   },
       {
