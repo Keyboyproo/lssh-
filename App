@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.18",
+  "Version": "1.0.19",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -10,7 +10,7 @@
 
 A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
 ⚙️ CONFIGURAÇÃO NOVA !
-🗓️ DATA: 2022",
+🗓️ DATA: 07/06/2022",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lssh-/main/App",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6849",
   "EmailFeedback": "",
@@ -47,7 +47,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
   ],
   "Networks": [
 {
-      "Name": " VIVO 1 BR",
+      "Name": "🔵 VIVO 1 BR 🚀",
       "FLAG": "vivo",
       "Payload": "GET wss://gedoc.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "gedoc.vivo.com.br",
@@ -57,7 +57,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "Info": "Tlsws"
     },
 	    {
-       "Name": "VIVO 2 BR",
+       "Name": "🔵 VIVO 2 BR 🚀",
       "FLAG": "vivo",
       "Payload": "GET wss://celular.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "celular.vivo.com.br",
@@ -67,7 +67,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
      "Info": "Tlsws"
      },
  {
-    "Name": "VIVO 3 BR",
+    "Name": "🔵 VIVO 3 BR 🚀",
       "FLAG": "vivo",
       "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "vigia.vivo.com.br",
@@ -77,7 +77,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
      "Info": "Tlsws"
   },
    {
-    "Name": "VIVO 4 BR",
+    "Name": "🔵 VIVO 4 BR 🚀",
       "FLAG": "vivo",
       "Payload": "GET wss://cname.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cname.vivo.com.br",
@@ -86,28 +86,29 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "ProxyPort": "443",
      "Info": "Tlsws"
   },
-     {
-    "Name": "VIVO 5 BR",
+  {
+      "Name": "🔵 VIVO PROXY BR 🚀",
       "FLAG": "vivo",
-      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "162.159.135.63",
-      "ProxyPort": "443",
-     "Info": "Tlsws"
-  },
-      {
-      "Name": "Claro BR",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "104.18.7.80",
+      "ProxyPort": "80",
+      "Info": "PROXY"
+    },
+
+     {
+      "Name": "🔴 CLARO NEW BR 🚀",
       "FLAG": "claro",
-      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "atendimento.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
+      "Payload": "GET wss://icanhazip.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+      "SNI": "icanhazip.com",
+      "TlsIP": "icanhazip.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    },
+   },
          {
-     "Name": "Claro LENTO BR",
+     "Name": "🔴 Claro BR ",
       "FLAG": "Claro",
       "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "content.akross.com.br",
@@ -116,19 +117,59 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "ProxyPort": "",
       "Info": "Tlsws"
      },
-    {
-      "Name": "Tim BR",
+      {
+      "Name": "🚀TIM NOVO🚀",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "104.16.18.94",
+      "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: br4.myconnectway.xyz\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    },
 
-    {
-      "Name": "Oi BR",
+},
+{
+ "Name": "🚀TIM NEW🚀",
+      "FLAG": "tim",
+      "Payload": "GET wss://bobcontents.bennuapp.com.br  HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "bobcontents.bennuapp.com.br",
+      "TlsIP": "104.18.239.79",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+      {
+   "Name": "🚀TIM DIRECT BR🚀",
+   "FLAG": "tim",
+   "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "[app_host]",
+   "TlsIP": "104.16.18.94",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  },
+      {
+      "Name": "🚀TIM [SSL 3]🚀",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: br4.myconnectway.xyz\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+        },
+        {
+   "Name": "🚀TIM [SSL 4]🚀",
+   "FLAG": "tim",
+   "Payload": "GET ws://static.r4you.co HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "static.r4you.co",
+   "TlsIP": "104.26.5.175",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  },
+       {
+      "Name": "🚀 Oi BR4 🚀",
       "FLAG": "oi",
       "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.hbogo.com.br",
@@ -137,5 +178,15 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "ProxyPort": "",
       "Info": "Tlsws"
      },
+       {
+   "Name": "🚀 OI PROXY BR4 🚀",
+   "FLAG": "oi",
+   "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "[app_host]",
+   "TlsIP": "104.16.51.91",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "PROXY"
+      },
   ]
 }
