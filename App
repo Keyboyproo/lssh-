@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.19",
+  "Version": "1.0.21",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -87,16 +87,15 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
      "Info": "Tlsws"
   },
   {
-      "Name": "🔵 VIVO PROXY BR 🚀",
+      "Name": "VIVO ON",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "104.18.7.80",
-      "ProxyPort": "80",
-      "Info": "PROXY"
+      "Payload": "GET wss://api.bitso.com/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "api.bitso.com",
+      "TlsIP": "172.64.195.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
-
      {
       "Name": "🔴 CLARO NEW BR 🚀",
       "FLAG": "claro",
